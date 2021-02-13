@@ -1,0 +1,70 @@
+.titulo{
+    background: black;
+    
+}
+h1{
+    color: white; 
+    display: inline; 
+    font-family:'algerian'; 
+}
+.nom-producto{
+    font-family: Arial;
+    color: #0e49b5;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.precio{
+    font-size: 40px;
+    background: #0e49b5;
+    color: #ffffff;
+    border-radius:20px ;
+}
+.columna{
+    background:#d6d6d6;
+    color: black;
+    border: 8px solid #e7b018;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #494949 ;
+    width: 23%;
+    box-sizing: border-box;
+}
+.btn-precio{
+    display: block;
+    background: #945ff5;
+    padding: 10px;
+    border-radius: 20px;
+    color: #f3d582;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: #783aec;
+}
+@media(max-width: 1240px){
+    .columna{
+        width: 47%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 810px){
+    .columna{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}    
+@media(max-width: 450px){
+    .h1{
+        display: block;
+    }
+}
+
+
+
